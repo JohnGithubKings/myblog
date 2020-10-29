@@ -1,0 +1,11 @@
+---
+permalink: /artists.html
+layout: page
+name: Artworks
+---
+
+{% for art in site.artworks %}
+<a href="{{ art.url }}"></ahref>
+<h2>{{ art.artist }}: {{ art.title}} ({{ art.year }})</h2>
+<img src="{{ art.image }}"alt="{{ art.artist }}: {{ art.title}}">
+{% endfor %}

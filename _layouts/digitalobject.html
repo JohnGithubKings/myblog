@@ -2,7 +2,11 @@
 layout: page
 ---
 
----layout:default---<h1>{{page.artist}}//{{page.title}}//{{page.year}}</h1>
+<h1>{{page.artist}}//{{page.title}}//{{page.year}}</h1>
+
 <img src="{{page.image}}"alt="{{page.artist}} // {{page.title}}">
-    <p>Ownedby:<a href="{{page.permanent_url}}">{{page.owned_by}}</a></p>
-    <p>Medium:{{page.medium}}</p>
+
+<p>Ownedby: <a href="{{page.permanent_url}}">{{page.owned_by}}</a></p>
+
+<p>Medium: {{page.medium}}</p>
+<p>Autor: {{ page.author }}</p>

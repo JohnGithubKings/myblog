@@ -1,0 +1,17 @@
+######################################################
+INSTALLARE NUOVI TEMI
+
+per installare temi:  "bundle install" quando hai aggiunto il tema nel file "gemfile" i temi li trovi 
+in "https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme"e infine lo scambi nel file "config.yml
+ricorda che un tema definisce vari layout, fa semplicemente questo. Un tema non può esistere senza layout
+
+######################################################
+Minima teheme info:  https://github.com/jekyll/minima
+
+"Layouts
+Refers to files within the _layouts directory, that define the markup for your theme.
+
+default.html — The base layout that lays the foundation for subsequent layouts. The derived layouts inject their contents into this file at the line that says {{ content }} and are linked to this file via FrontMatter declaration layout: default.
+home.html — The layout for your landing-page / home-page / index-page. [More Info.]
+page.html — The layout for your documents that contain FrontMatter, but are not posts.
+post.html — The layout for your posts."

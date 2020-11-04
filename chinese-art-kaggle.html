@@ -1,1 +1,23 @@
-{{ site.data.artists }}
+---
+title: Table test
+---
+
+{% for artist in site.data.artists %}
+
+    <h2> {{artist.EnglishName }}  {{ artist.ChineseName }}</h2>
+    <br>
+    <p>{{artist.Nationality}}</p>
+    <p> {{artist.gender}}</p>
+    <p> {{artist.BirthYear}}</p>
+    <p>{{artist.DeathYear}}</p>
+    
+    {% assign filename = '/media/chinese-art-kaggle/china-artworks/' %} 
+   
+    <img src=" {{ filename | append:artist.EnglishName | replace: " ", "_"  | append:"/"| append:artist.EnglishName | replace: " ", "_"  | append:"_01.jpg"}}" alt="image" />
+
+{% endfor %}
+
+
+
+
+

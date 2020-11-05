@@ -10,4 +10,3 @@ permanent_url: https://www.sfmoma.org/artwork/97.36
 image: /media/Lesende.png
 ---
 
-An introduction to Gerhard Richter

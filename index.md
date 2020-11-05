@@ -2,4 +2,5 @@
 layout: home
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>Hello World!</h1>
+<h2>This is the John's Blog</h2>

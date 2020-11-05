@@ -1,5 +1,7 @@
 ---
-title: Table test
+title: Chinese Art Kaggle
+layout: page
+name: Chinese Art Kaggle
 ---
 
 {% for artist in site.data.artists %}
@@ -12,8 +14,17 @@ title: Table test
     <p>{{artist.DeathYear}}</p>
     
     {% assign filename = '/media/chinese-art-kaggle/china-artworks/' %} 
-   
+    <br>
+
     <img src=" {{ filename | append:artist.EnglishName | replace: " ", "_"  | append:"/"| append:artist.EnglishName | replace: " ", "_"  | append:"_01.jpg"}}" alt="image" />
+
+    <img src=" {{ filename | append:artist.EnglishName | replace: " ", "_"  | append:"/"| append:artist.EnglishName | replace: " ", "_"  | append:"_02.jpg"}}" alt="image" />
+
+    <img src=" {{ filename | append:artist.EnglishName | replace: " ", "_"  | append:"/"| append:artist.EnglishName | replace: " ", "_"  | append:"_03.jpg"}}" alt="image" />
+   
+    <br>
+    <br>
+
 
 {% endfor %}
 

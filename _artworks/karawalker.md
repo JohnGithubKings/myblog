@@ -10,4 +10,4 @@ permanent_url: https://www.sfmoma.org/artwork/2018.21
 image: /media/Karavan.png
 ---
 
-An introduction to KaraWalker
+An introduction to Kara Walker

@@ -4,6 +4,9 @@ title: Artworks
 ---
 
 {% for art in site.artworks %}
+<a href="{{art.url}}">
 <h2>{{ art.artist }}: {{ art.title}} ({{ art.year }})</h2>
 <img src=" {{ art.photo }} " alt="{{ art.artist }}: {{ art.title}}">
+<p>Owned by{{art.owned_by}}</p>
+</a>
 {% endfor %}

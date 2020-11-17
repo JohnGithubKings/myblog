@@ -7,6 +7,6 @@ map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.662
 screenshot: media/screenshots/british.png
 my_review_url: https://kclddh-7aavdm14-2020.github.io/wk1-british-museum-JohnGithubKings/blog.html
 date_of_visit: 8/10/2020
-favourite_object_name: Amphora
-favourite_object_url: https://www.britishmuseum.org/collection/object/G_1849-0518-10
+favourite_object_name: The Virgin and child cartoon
+favourite_object_url: https://www.britishmuseum.org/collection/object/P_1894-0721-1
 ---
